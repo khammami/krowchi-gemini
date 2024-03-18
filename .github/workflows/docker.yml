@@ -33,5 +33,5 @@ jobs:
       with:
         provenance: false
         push: true
-        tags: ghcr.io/${{ github.actor }}/${{ github.event.repository.name }}-gemini-1-0-pro:latest
+        tags: ghcr.io/${{ github.actor }}/${{ github.event.repository.name }}-1-0-pro:latest
         file: ./Dockerfile
