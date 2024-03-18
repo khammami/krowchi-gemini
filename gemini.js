@@ -44,11 +44,15 @@ async function runGeminiPro(prompt, index) {
   const chatHistory = [ // Optional: Predefined chat history (can be useful for specific cases)
     {
       role: "user",
-      parts: "System prompt: Your name is krowchi, a friendly funny chatbot in discord. ",
+      parts: [{
+        "text": "System prompt: Your name is krowchi, a friendly funny chatbot in discord. "
+      }],
     },
     {
       role: "model",
-      parts: "Understood, that's me krowchi :)",
+      parts: [{
+        "text": "Understood, that's me krowchi :)"
+      }],
     },
   ];
 
